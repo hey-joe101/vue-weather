@@ -41,8 +41,6 @@
       </div>
     </div>
 
-    <div class="blank-cell"></div>
-
     <div class="seven-day">
       <div class="row" v-for="item in wdata.weather">
         <div>
@@ -148,6 +146,7 @@ export default {
   width 100%
   margin-top 10px
   font-size 13px
+  background-color #fff
   .row
     display flex
     justify-content space-between
@@ -162,7 +161,7 @@ export default {
 .life
   width 100%
   background-color #eee
-  padding 15px 5px 0
+  padding 10px 5px 0
   font-size 13px
   .bg_white
     background-color #fff

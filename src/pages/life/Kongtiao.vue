@@ -1,10 +1,10 @@
 <template lang="html">
-  <div class="xiche">
+  <div class="kongtiao">
     <TopBar :title="title"/>
     <div class="card">
       <div class="content">
-        <h2>不宜</h2>
-        <p>建议用露质面霜打底，水质无油粉底霜，透明粉饼，粉质胭脂。</p>
+        <h2>少开</h2>
+        <p>气象条件有利于污染物扩散。</p>
       </div>
       <div class="info">
         <p class="area">武汉</p>
@@ -23,7 +23,7 @@ import TopBar from '@/components/base/TopBar'
 export default {
   data () {
     return {
-      title: '洗车指数'
+      title: '空调指数'
     }
   },
   components: {
@@ -38,7 +38,7 @@ export default {
     margin 10px
     padding 15px
     height 250px
-    background #fff url('/static/images/life/xiche.jpg') no-repeat right bottom / 150px
+    background #fff url('/static/images/life/kongtiao.jpg') no-repeat right bottom / 150px
     .content
       width 80%
       text-align left

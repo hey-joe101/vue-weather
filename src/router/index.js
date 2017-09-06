@@ -11,7 +11,7 @@ import Yundong from '@/pages/life/Yundong'
 import Ganmao from '@/pages/life/Ganmao'
 import Diaoyu from '@/pages/life/Diaoyu'
 import Xiche from '@/pages/life/Xiche'
-import Wuran from '@/pages/life/Wuran'
+import Kongtiao from '@/pages/life/Kongtiao'
 
 // Vue.use(VueRouter)
 
@@ -59,7 +59,7 @@ const router = new VueRouter({
       component: Yundong
     },
     {
-      path: '/gaomao',
+      path: '/ganmao',
       name: 'Ganmao',
       component: Ganmao
     },
@@ -74,9 +74,9 @@ const router = new VueRouter({
       component: Xiche
     },
     {
-      path: '/wuran',
-      name: 'Wuran',
-      component: Wuran
+      path: '/kongtiao',
+      name: 'Kongtiao',
+      component: Kongtiao
     }
   ]
 })
