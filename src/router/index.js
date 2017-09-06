@@ -1,9 +1,6 @@
 // import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/pages/Home'
-import Setting from '@/components/Setting'
-import Share from '@/components/Share'
-import ManageCity from '@/components/ManageCity'
 import Chuanyi from '@/pages/life/Chuanyi'
 import Huazhuang from '@/pages/life/Huazhuang'
 import Ziwaixian from '@/pages/life/Ziwaixian'
@@ -12,6 +9,10 @@ import Ganmao from '@/pages/life/Ganmao'
 import Diaoyu from '@/pages/life/Diaoyu'
 import Xiche from '@/pages/life/Xiche'
 import Kongtiao from '@/pages/life/Kongtiao'
+import Share from '@/pages/more/Share'
+import ManageCity from '@/pages/more/ManageCity'
+import Settings from '@/pages/more/Settings'
+import EarlyWarn from '@/pages/more/EarlyWarn'
 
 // Vue.use(VueRouter)
 
@@ -24,9 +25,14 @@ const router = new VueRouter({
       component: Home
     },
     {
-      path: '/setting',
-      name: 'Setting',
-      component: Setting
+      path: '/earlyWarn',
+      name: 'EarlyWarn',
+      component: EarlyWarn
+    },
+    {
+      path: '/settings',
+      name: 'Settings',
+      component: Settings
     },
     {
       path: '/share',

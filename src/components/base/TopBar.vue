@@ -20,12 +20,12 @@ export default {
 
 <style lang="stylus" scoped>
   .top-bar
-    // position fixed
     background-color #fff
     width 100%
     height 36px
     line-height 36px
     text-align left
+    border-bottom 1px solid #eee
     i
       font-size 15px
       margin-left 10px

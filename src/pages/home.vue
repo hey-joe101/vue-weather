@@ -5,9 +5,9 @@
       <el-dropdown class="right" :el-dropdown-link="false">
         <span class="el-dropdown-link"><i class="el-icon-more" style="margin-right: 10px;"></i></span>
         <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item><router-link to="/share">分享</router-link></el-dropdown-item>
-          <el-dropdown-item><router-link to="/manageCity">城市管理</router-link></el-dropdown-item>
-          <el-dropdown-item><router-link to="/manageCity">设置</router-link></el-dropdown-item>
+          <el-dropdown-item disabled><router-link to="/share">分享</router-link></el-dropdown-item>
+          <el-dropdown-item disabled><router-link to="/manageCity">城市管理</router-link></el-dropdown-item>
+          <el-dropdown-item><router-link to="/settings">设置</router-link></el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>
