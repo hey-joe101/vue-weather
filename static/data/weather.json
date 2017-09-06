@@ -1,0 +1,431 @@
+{
+  "result": {
+    "data": {
+      "realtime": {
+        "wind": {
+          "windspeed": "7.0",
+          "direct": "西北风",
+          "power": "2级",
+          "offset": null
+        },
+        "time": "16:00:00",
+        "weather": {
+          "humidity": "91",
+          "img": "8",
+          "info": "中雨",
+          "temperature": "11"
+        },
+        "dataUptime": 1451894824,
+        "date": "2016-01-04",
+        "city_code": "101200101",
+        "city_name": "武汉",
+        "week": 1,
+        "moon": "十一月廿五"
+      },
+      "life": [
+        {
+          "listItem": "穿衣",
+          "sug": "闷热",
+          "path": "/chuanyi"
+        },
+        {
+          "listItem": "化妆",
+          "sug": "控油",
+          "path": "/huazhuang"
+        },
+        {
+          "listItem": "紫外线",
+          "sug": "弱",
+          "path": "/ziwaixian"
+        },
+        {
+          "listItem": "运动",
+          "sug": "不适宜",
+          "path": "/yundong"
+        },
+        {
+          "listItem": "感冒",
+          "sug": "易发",
+          "path": "/ganmao"
+        },
+        {
+          "listItem": "钓鱼",
+          "sug": "较适宜",
+          "path": "/diaoyu"
+        },
+        {
+          "listItem": "洗车",
+          "sug": "不宜",
+          "path": "/xiche"
+        },
+        {
+          "listItem": "空调",
+          "sug": "较少开启",
+          "path": "/kongtiao"
+        }
+      ],
+      "weather": [{
+          "date": "2016-01-04",
+          "info": {
+            "night": [
+              "7",
+              "小雨",
+              "6",
+              "无持续风向",
+              "微风",
+              "17:34"
+            ],
+            "day": [
+              "7",
+              "小雨",
+              "13",
+              "无持续风向",
+              "微风",
+              "07:20"
+            ]
+          },
+          "week": "一",
+          "nongli": "十一月廿五"
+        },
+        {
+          "date": "2016-01-05",
+          "info": {
+            "dawn": [
+              "7",
+              "小雨",
+              "6",
+              "无持续风向",
+              "微风",
+              "17:34"
+            ],
+            "night": [
+              "2",
+              "阴",
+              "4",
+              "无持续风向",
+              "微风",
+              "17:35"
+            ],
+            "day": [
+              "7",
+              "小雨",
+              "9",
+              "无持续风向",
+              "微风",
+              "07:20"
+            ]
+          },
+          "week": "二",
+          "nongli": "十一月廿六"
+        },
+        {
+          "date": "2016-01-06",
+          "info": {
+            "dawn": [
+              "2",
+              "阴",
+              "4",
+              "无持续风向",
+              "微风",
+              "17:35"
+            ],
+            "night": [
+              "2",
+              "阴",
+              "4",
+              "无持续风向",
+              "微风",
+              "17:36"
+            ],
+            "day": [
+              "0",
+              "晴",
+              "10",
+              "无持续风向",
+              "微风",
+              "07:20"
+            ]
+          },
+          "week": "三",
+          "nongli": "十一月廿七"
+        },
+        {
+          "date": "2016-01-07",
+          "info": {
+            "dawn": [
+              "2",
+              "阴",
+              "4",
+              "无持续风向",
+              "微风",
+              "17:36"
+            ],
+            "night": [
+              "1",
+              "多云",
+              "0",
+              "无持续风向",
+              "微风",
+              "17:36"
+            ],
+            "day": [
+              "7",
+              "小雨",
+              "10",
+              "无持续风向",
+              "微风",
+              "07:20"
+            ]
+          },
+          "week": "四",
+          "nongli": "十一月廿八"
+        },
+        {
+          "date": "2016-01-08",
+          "info": {
+            "dawn": [
+              "1",
+              "多云",
+              "0",
+              "无持续风向",
+              "微风",
+              "17:36"
+            ],
+            "night": [
+              "1",
+              "多云",
+              "1",
+              "无持续风向",
+              "微风",
+              "17:37"
+            ],
+            "day": [
+              "1",
+              "多云",
+              "10",
+              "无持续风向",
+              "微风",
+              "07:20"
+            ]
+          },
+          "week": "五",
+          "nongli": "十一月廿九"
+        },
+        {
+          "date": "2016-01-09",
+          "info": {
+            "night": [
+              "1",
+              "多云",
+              "2",
+              "",
+              "微风",
+              "19:30"
+            ],
+            "day": [
+              "1",
+              "多云",
+              "11",
+              "",
+              "微风",
+              "07:30"
+            ]
+          },
+          "week": "六",
+          "nongli": "十一月三十"
+        },
+        {
+          "date": "2016-01-10",
+          "info": {
+            "night": [
+              "3",
+              "阵雨",
+              "2",
+              "东北风",
+              "微风",
+              "19:30"
+            ],
+            "day": [
+              "3",
+              "阵雨",
+              "10",
+              "东北风",
+              "微风",
+              "07:30"
+            ]
+          },
+          "week": "日",
+          "nongli": "十二月初一"
+        }
+      ],
+      "hour24": {
+        "curImg": "el-icon-time",
+        "curWea": "无雨",
+        "curSug": "放心出行",
+        "state": [{
+            "hour": "17:00",
+            "img": "el-icon-time",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "18:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "19:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "20:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "21:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "22:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "23:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "00:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "01:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "02:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "03:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "04:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "05:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "06:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "07:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "08:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "09:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "10:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "11:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "12:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "13:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "14:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "15:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          },
+          {
+            "hour": "16:00",
+            "img": "el-icon-information",
+            "wea": "雷阵雨",
+            "temp": "31"
+          }
+        ]
+      },
+      "pm25": {
+        "key": "",
+        "show_desc": 0,
+        "pm25": {
+          "curPm": "255",
+          "pm25": "227",
+          "pm10": "255",
+          "level": 5,
+          "quality": "重度污染",
+          "des": "老年人和心脏病、肺病患者应停留在室内，停止户外活动，一般人群减少户外运动。"
+        },
+        "dateTime": "2016年01月04日16时",
+        "cityName": "武汉"
+      },
+      "date": null,
+      "isForeign": 0
+    }
+  },
+  "error_code": 0,
+  "reason": "Succes"
+}
