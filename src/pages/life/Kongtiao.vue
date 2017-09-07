@@ -35,12 +35,13 @@ export default {
 <style lang="styl" scoped>
   .card
     position relative
-    margin 10px
+    top 46px
+    margin 0 10px
     padding 15px
     height 250px
     background #fff url('/static/images/life/kongtiao.jpg') no-repeat right bottom / 150px
     .content
-      width 80%
+      min-width 80%
       text-align left
       h2
         color red

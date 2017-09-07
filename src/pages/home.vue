@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="home">
-    <div class="top-bar clear">
+    <div class="top-bar clear" v-if="bdScrollTop === 0">
       <span style="margin-left: 24px;">{{ wdata.realtime.city_name }}</span>
       <el-dropdown class="right" :el-dropdown-link="false">
         <span class="el-dropdown-link"><i class="el-icon-more" style="margin-right: 10px;"></i></span>
@@ -11,7 +11,18 @@
         </el-dropdown-menu>
       </el-dropdown>
     </div>
-
+    <div class="top-bar2 clear" v-if="bdScrollTop !== 0">
+      <span style="margin-left: 24px;">{{ wdata.realtime.city_name }}</span>
+      <span>{{ wdata.realtime.weather.temperature }}</span><span class="sup">。</span>
+      <el-dropdown class="right" :el-dropdown-link="false">
+        <span class="el-dropdown-link"><i class="el-icon-more" style="margin-right: 10px;"></i></span>
+        <el-dropdown-menu slot="dropdown">
+          <el-dropdown-item disabled><router-link to="/share">分享</router-link></el-dropdown-item>
+          <el-dropdown-item disabled><router-link to="/manageCity">城市管理</router-link></el-dropdown-item>
+          <el-dropdown-item><router-link to="/settings">设置</router-link></el-dropdown-item>
+        </el-dropdown-menu>
+      </el-dropdown>
+    </div>
     <div class="realtime">
       <p>{{ wdata.realtime.weather.info}}</p>
       <div class="temperature">
@@ -79,13 +90,17 @@
 export default {
   data () {
     return {
-      wdata: {}
+      wdata: {},
+      bdScrollTop: 0
     }
   },
   computed: {
     airQuality () {
       return this.getAirQuality(this.wdata.pm25.pm25.curPm)
     }
+    // bdScrollTop () {
+      // return document.body.scrollTop
+    // }
   },
   created () {
     const self = this
@@ -101,7 +116,13 @@ export default {
         console.log(res)
       })
   },
+  mounted () {
+    window.addEventListener('scroll', this.getScrollTop)
+  },
   methods: {
+    getScrollTop () {
+      this.bdScrollTop = document.body.scrollTop
+    },
     getAirQuality (curPm) {
       let result = ''
       let n = parseInt(curPm)
@@ -132,6 +153,8 @@ export default {
     getSky (item) {
       return item.info.day[1]
     }
+  },
+  watch: {
   }
 }
 </script>
@@ -180,13 +203,18 @@ export default {
         font-size 12px
         color #7d7c7c
 .top-bar
+.top-bar2
   position fixed
-  /*background-color #58B7FF*/
   width 100%
   height 36px
   line-height 36px
-  z-index: 1000
-
+  z-index 1000
+.top-bar2
+  background-color #fff
+  text-align left
+  .sup
+    position relative
+    top -10px
 .realtime
   padding 56px 0 0
   width 100%

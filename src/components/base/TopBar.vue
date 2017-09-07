@@ -20,6 +20,8 @@ export default {
 
 <style lang="stylus" scoped>
   .top-bar
+    position fixed
+    z-index 1000
     background-color #fff
     width 100%
     height 36px

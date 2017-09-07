@@ -49,9 +49,12 @@ export default {
 
 <style lang="styl" scoped>
   .content
+    position absolute
+    top 36px
+    width 100%
     background-color #fff
-    margin 5px
-    padding 5px 15px
+    margin-top 10px
+    padding 0 15px
     .item
       height 44px
       line-height 44px

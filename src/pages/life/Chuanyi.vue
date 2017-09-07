@@ -35,7 +35,8 @@ export default {
 <style lang="styl" scoped>
   .card
     position relative
-    margin 10px
+    top 46px
+    margin 0 10px
     padding 15px
     height 250px
     background #fff url('/static/images/life/chuanyi.png') no-repeat right bottom / 150px
