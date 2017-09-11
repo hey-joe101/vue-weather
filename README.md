@@ -1,6 +1,8 @@
 # vue-weather
 
-> A Vue.js project
+> 模仿安卓天气客户端写的WebAPP
+> technology stack: Vue/Vuex/Vue Router
+> other technology: stylus/webpack/axios
 
 ## Build Setup
 
@@ -19,3 +21,5 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
